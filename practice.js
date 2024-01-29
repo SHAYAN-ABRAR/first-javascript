@@ -1,7 +1,7 @@
 //1st task
 let x = 1000;
-let price = 700;
-let returnValue = x - price;
+let totalPrice = 700;
+let returnValue = x - totalPrice;
 //console.log(returnValue);
 
 
@@ -20,5 +20,38 @@ let total= (math + bio + chem + phy + ban)/5;
 let div=119;
 
 let divAns= 119%5;
-console.log(divAns);
+//console.log(divAns);
+
+
+//free drinks
+let price = 200;
+
+if (price >= 500) {
+    //console.log('Free Coke');
+} else {
+   // console.log('Add a 30tk Coke');
+}
+
+
+//BMI calculator
+let weight = 81;
+let heightInInches = 5.10;
+let heightInMeters = heightInInches / 39.37;
+
+let bmiNumber = weight / (heightInMeters ** 2);
+
+if (bmiNumber < 18.5) {
+    console.log('Underweight');
+} else if (bmiNumber >= 18.5 && bmiNumber < 24.9) {
+    console.log('Normal');
+} else if (bmiNumber >= 25 && bmiNumber < 29.9) {
+    console.log('Overweight');
+} else if (bmiNumber > 29.9) {
+    console.log('Obese');
+}
+
+
+
+
+
 
